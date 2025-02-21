@@ -84,6 +84,7 @@ async def show_product(chat_id, index, message_id=None):
     ]
     keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)
 
+# salom smdfrefndmscom b
     if message_id:
         # Agar eski xabar mavjud bo'lsa, uni o'chirib yangisini yuboramiz
         await bot.delete_message(chat_id, message_id)
